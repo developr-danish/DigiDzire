@@ -4214,3 +4214,19 @@ html.is-animating .mil-menu-frame {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
+
+
+.mobile{
+  display: none;
+}
+@media (max-width: 1200px) {
+  .mil-logo{
+    display:none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+.rounded{
+  border-radius: 3px;
+}
